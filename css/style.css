@@ -1,0 +1,30 @@
+
+.box{
+    width: 100%;
+    height: 45px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(26, 194, 96);
+}
+.navigation{
+    transition-duration: 1s;
+    width: 45px;
+    height: 45px ;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    bottom: 25px;
+}
+.img{
+    width: 45px;
+    height: 45px;
+}
+.end{
+    display: none;
+}
+.navigation:focus{
+    transform: rotate(180deg);
+}
+.navigation:focus .end{
+    display: block;
+}

@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 10%;
+    display: inline-block;
+    position: relative;
+    transition-duration: 1s;
+}
+.box{
+    width: 305%;
+    display: none;
+    position: absolute;
+}
+.container:hover .box{
+    display: block;
+}
